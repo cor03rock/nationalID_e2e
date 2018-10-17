@@ -18,7 +18,7 @@ describe('Test the registration of National Sport ID Parent Account', function()
 		browser.sleep(3000);
 	});
 
-	it('Should submit new player', function(){
+	it('Should be able to submit new player', function(){
 
 		RegisterPage.submitNewPlayer();
 		RegisterPage.isRegisterButtonVisible();
