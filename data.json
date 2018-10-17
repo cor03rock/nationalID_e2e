@@ -1,0 +1,23 @@
+{
+	"user" : {
+		"firstName": "Rocky",
+		"lastName" : "Coronel"
+	},
+	"parent" : {
+		"firstName" : "SheBangs",
+		"lastName"  : "BangShe",
+		"address"   : "Minglanilla",
+		"townCity"  : "Cebu",
+		"state"		: "Cebu",
+		"zipCode"	: "6042",
+		"email"		: "aaa@gmail.com",
+		"password1" : "12345",
+		"password2" : "12345",
+		"mobile"	: "94222222"
+	},
+
+	"forValidation" : {
+		"pageTitle" 				: "National Sports ID",
+		"isRegisterButtonDisplayed"	: "True"
+	}
+} 
