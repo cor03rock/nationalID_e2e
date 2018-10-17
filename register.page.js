@@ -45,9 +45,10 @@ function inputParentOfPlayer () {
 	browser.driver.findElement( by.id( 'hoopalert_user_parent_registration_plainPassword_second' )).sendKeys( data.parent.password2 );
 	browser.driver.findElement( by.id( 'hoopalert_user_parent_registration_phoneNumbers_0_phoneNumber' )).sendKeys( data.parent.mobile );
 	browser.sleep(3000);
-	browser.driver.findElement( by.id( 'hoopalert_user_parent_registration_terms' )).click();
+	browser.driver.findElement( by.css( '[for="hoopalert_user_parent_registration_terms"]' )).click();
 	browser.sleep(3000);
 	browser.driver.findElement(by.id( 'register' )).click();
+
 
 }
 
